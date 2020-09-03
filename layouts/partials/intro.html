@@ -1,0 +1,7 @@
+{{ range .Params.intro }}
+    <h3>{{ .title }}</h3>
+    <div>{{ .content }}</div>
+    {{ with .cta }}
+        <button>{{ . }}</button>
+    {{ end}}
+{{ end }}
