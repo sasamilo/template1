@@ -24,10 +24,9 @@ blocks:
       [learn more](/learnmore)
 
 gallery: 
-    - /portfolio/image1.jpg
-    - /portfolio/image2.jpg
-    - /portfolio/image3.jpg
-  
+  - /portfolio/image1.jpg
+  - /portfolio/image2.jpg
+  - /portfolio/image3.jpg
 ---
 # Spotlight
 
