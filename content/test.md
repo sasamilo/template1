@@ -1,5 +1,5 @@
 ---
-title: "Test"
+title: "Template"
 date: 2020-09-03T19:56:10+02:00
 draft: true
 hero: /image/hero.jpg
@@ -27,6 +27,13 @@ gallery:
   - /portfolio/image1.jpg
   - /portfolio/image2.jpg
   - /portfolio/image3.jpg
+testimonial:
+  - name: Someone Name
+    content: description of everthing about this person
+  - name: Someone Else
+    content: description of everthing about this person
+  - name: Someone Else
+    content: description of everthing about this person
 ---
 # Spotlight
 
