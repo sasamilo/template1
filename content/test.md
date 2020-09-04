@@ -6,7 +6,7 @@ hero: /image/hero.jpg
 
 blocks:
   - position: right
-    image: /image/spotlight.jpg
+    image: image/spotlight.jpg
     content: >-
       ## Spotlight
 
@@ -15,7 +15,7 @@ blocks:
 
       [learn more](/learnmore)
   - position: left
-    image: /image/spotlight.jpg
+    image: image/spotlight.jpg
     content: >-
       ## Spotlight
 
@@ -28,7 +28,7 @@ gallery:
   - /portfolio/image2.jpg
   - /portfolio/image3.jpg
 testimonial:
-  - name: Someone Name
+  - name: Someone Else
     content: description of everthing about this person
   - name: Someone Else
     content: description of everthing about this person

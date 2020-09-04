@@ -1,3 +1,4 @@
 {{ range .Params.blocks }}
    <div>{{ .content | markdownify }}</div>
+   <img src="{{ . }}">
 {{ end }}  

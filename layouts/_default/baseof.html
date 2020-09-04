@@ -3,15 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <ul>
-        <li>This will be a header either via taxonomy or curly brackets</li>
+        <li class="navbar-left">BRAND</li>
+        <li class="navbar-right">section1</li>
+        <li>section2</li>
         </ul>
     </nav>
+    </div>
     {{ block "main" . -}}{{- end }}
     {{ partial "footer" . }}
+    <link rel="stylesheet" href="/style.css">
   </body>
 </html>
