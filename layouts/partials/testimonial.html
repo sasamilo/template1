@@ -2,15 +2,15 @@
    <h2>Testimonials</h2>
 
    <div class="row row-no-gutters">
-<div class="col-xs-6 col-md-4">
-{{ range .Params.testimonial }}
-      <div class="name">
-   <h3>{{ .name }}</h3>
-</div>
-<div class="testimonial">
-   <p>{{ .content }}</p>
-</div>
-{{ end }}
-</div>
-</div>
+      {{ range .Params.testimonial }}
+      <div class="col-xs-6 col-md-4">
+         <div class="name">
+            <h3>{{ .name }}</h3>
+         </div>
+         <div class="testimonial">
+            <p>{{ .content }}</p>
+         </div>
+      </div>
+      {{ end }}
+   </div>
 </div>

@@ -1,4 +1,9 @@
-{{ range .Params.blocks }}
-   <div>{{ .content | markdownify }}</div>
-   <img src="{{ . }}">
-{{ end }}  
+   {{ range .Params.blocks }}
+      {{ if eq .position "right" }}
+            <img class="blockpic" src="{{ .image }}">
+         {{ end }}
+            <div>{{ .content | markdownify }}</div>
+         {{ if eq .position "left" }}
+            <img class="blockpic" src="{{ .image }}">
+         {{ end }}
+   {{ end }}

@@ -6,7 +6,8 @@ hero: /image/hero.jpg
 
 blocks:
   - position: right
-    image: image/spotlight.jpg
+    title: Home
+    image: /image/spotlight.jpg
     content: >-
       ## Spotlight
 
@@ -15,7 +16,8 @@ blocks:
 
       [learn more](/learnmore)
   - position: left
-    image: image/spotlight.jpg
+    title: About
+    image: /image/spotlight.jpg
     content: >-
       ## Spotlight
 
@@ -23,10 +25,12 @@ blocks:
 
       [learn more](/learnmore)
 
-gallery: 
-  - /portfolio/image1.jpg
-  - /portfolio/image2.jpg
-  - /portfolio/image3.jpg
+gallery:
+  title: Gallery
+  images:
+    - /portfolio/image1.jpg
+    - /portfolio/image2.jpg
+    - /portfolio/image3.jpg
 testimonial:
   - name: Someone Else
     content: description of everthing about this person
@@ -34,6 +38,13 @@ testimonial:
     content: description of everthing about this person
   - name: Someone Else
     content: description of everthing about this person
+address:
+  business: BizSi
+  name: John Doe
+  street: Krulovka 2
+  city: Dranj 2345
+  phone: 123 456 789
+  email: jdoe@krulovka.pi
 ---
 # Spotlight
 
