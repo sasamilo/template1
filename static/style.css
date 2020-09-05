@@ -1,3 +1,21 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
 .hero {
     width: 700px;
 }
@@ -31,6 +49,7 @@
 }
 
 .footer {
+    font-family: 'Rubik', sans-serif;
     padding: 50px 300px 50px 400px;
     background-color: gray;
 }

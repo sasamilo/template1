@@ -1,5 +1,5 @@
 ---
-title: "Template"
+title: "Dobrodošli na spletni strani Saše Milo Kampič"
 date: 2020-09-03T19:56:10+02:00
 draft: true
 hero: /image/hero.jpg
