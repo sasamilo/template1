@@ -1,8 +1,11 @@
 {{ define "main" -}}
-{{ .Content }} 
-{{ partial "intro" . }} 
-{{ partial "about" . }} 
-{{ partial "blocks" . }} 
-{{ partial "gallery" . }}
-{{ partial "testimonial" . }}
+    <div class="container">
+        {{ .Content }} 
+        {{ partial "intro" . }} 
+        {{ partial "about" . }} 
+        {{ partial "blocks" . }} 
+        {{ partial "gallery" . }}
+        {{ partial "testimonial" . }}
+    </div>
 {{- end }}
+
