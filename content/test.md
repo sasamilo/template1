@@ -49,8 +49,10 @@ address:
   phone: 123 456 789
   email: jdoe@krulovka.pi
 ---
-# Spotlight
+# Hero 
 
-This is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content alignment, and image position, as well as assign it an optional onload or onscroll transition modifier (details).
+This is a start of something great.
+
+## join today
 
 [learn more](/learnmore)  

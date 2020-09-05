@@ -1,1 +1,9 @@
-<div>{{ .Params.about }}</div>
+<div class="row">
+    <div class="col">
+        <div>{{ .Content }}</div>
+    </div>
+
+    <div class="col">
+        <img class="hero" src="{{ .Params.hero }}">
+    </div>
+</div>
