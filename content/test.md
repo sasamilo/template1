@@ -33,11 +33,14 @@ gallery:
     - /portfolio/image3.jpg
 testimonial:
   - name: Someone Else
-    content: description of everthing about this person
+    business: eaglerare
+    content: his is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content a
   - name: Someone Else
-    content: description of everthing about this person
+    business: eaglerare
+    content: his is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content a
   - name: Someone Else
-    content: description of everthing about this person
+    business: eaglerare
+    content: his is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content a
 address:
   business: BizSi
   name: John Doe
