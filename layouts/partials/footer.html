@@ -1,17 +1,17 @@
-<address>
-    {{ with .Params.address }}
-        <strong>{{ .business }}</strong><br>
-                {{ .name }}<br>
-                {{ .street }}<br>
-                {{ .city }}<br>
-        <abbr title="Phone">P:</abbr>{{ .phone }}<br>
-        </address>
+<div class="footer">
+    <address>
+        {{ with .Params.address }}
+            <strong>{{ .business }}</strong><br>
+                    {{ .name }}<br>
+                    {{ .street }}<br>
+                    {{ .city }}<br>
+            <abbr title="Phone">P:</abbr>{{ .phone }}<br>
+            </address>
 
-<address>
-    <strong>{{ .name }}</strong><br>
-    <a href="mailto:#"></a>{{ .email }}</a>
-</address>
-    {{ end }}
-
-
+    <address>
+        <strong>{{ .name }}</strong><br>
+        <a href="mailto:#"></a>{{ .email }}</a>
+    </address>
+        {{ end }}
+</div>
 

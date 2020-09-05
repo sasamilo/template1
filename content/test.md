@@ -3,6 +3,7 @@ title: "Template"
 date: 2020-09-03T19:56:10+02:00
 draft: true
 hero: /image/hero.jpg
+about: here's some text that will explain what this page is about
 
 blocks:
   - position: right
@@ -49,10 +50,3 @@ address:
   phone: 123 456 789
   email: jdoe@krulovka.pi
 ---
-# Hero 
-
-This is a start of something great.
-
-## join today
-
-[learn more](/learnmore)  
