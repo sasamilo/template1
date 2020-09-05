@@ -1,9 +1,25 @@
-   {{ range .Params.blocks }}
-      {{ if eq .position "right" }}
-            <img class="blockpic" src="{{ .image }}">
-         {{ end }}
-            <div>{{ .content | markdownify }}</div>
-         {{ if eq .position "left" }}
-            <img class="blockpic" src="{{ .image }}">
-         {{ end }}
-   {{ end }}
+{{ range .Params.blocks }}
+    {{ if eq .position "left" }}
+        <div class="row">
+            <div class="col">
+                <img class="blockpic" src="{{ .image }}">
+            </div>
+            <div class="col">
+                <div>{{ .content | markdownify }}</div>
+            </div>
+        </div>
+    
+    {{ end }}
+
+    {{ if eq .position "right" }}
+        <div class="row">
+            <div class="col">
+                <div>{{ .content | markdownify }}</div>
+            </div>
+            <div class="col">
+                <img class="blockpic" src="{{ .image }}">
+            </div>
+        </div>
+    
+    {{ end }}
+{{ end }}
