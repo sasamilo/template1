@@ -50,4 +50,4 @@ address:
 
 This is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content alignment, and image position, as well as assign it an optional onload or onscroll transition modifier (details).
 
-[learn more](/learnmore)
+[learn more](/learnmore)  

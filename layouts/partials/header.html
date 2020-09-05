@@ -1,11 +1,11 @@
 <nav class="navbar navbar-default navbar-fixed-top">
-        <span>BRAND</span><br>
-        <span>name</span>
-        <ul class="nav navbar-nav navbar-right">
+        <div class="brand">
+                <a href=#>BRAND</a><br>
+                <a>name</a>
+        </div>
             {{ range .Params.blocks }}
-            <li><a href="#">{{ .title }}</a></li> 
-        
-
-        <li><a>{{ .Params.gallery.title }}</a></li>
-        {{ end }}
-  </nav>
+            <a href="#">{{ .title }}</a>
+            {{ end }}
+            <a href="#">{{ .Params.gallery.title }}</a>
+            <a href="#">Testemonials</a>
+</nav>

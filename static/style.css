@@ -2,12 +2,10 @@
    width: 300px;
 }
 
-.nav ul {
-    list-style-type: none;
-    display: inline;
-    text-decoration: none;
-}
-
 .blockpic {
     width: 300px;
+}
+
+.navbar {
+    
 }
