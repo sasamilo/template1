@@ -1,7 +1,7 @@
 <div class="blocks">
     {{ range .Params.blocks }}
         {{ if eq .position "left" }}
-            <div class="row">
+            <div class="row left">
                 <div class="col">
                     <img class="blockpic" src="{{ .image }}">
                 </div>
@@ -9,11 +9,11 @@
                     <div>{{ .content | markdownify }}</div>
                 </div>
             </div>
-
+    
         {{ end }}
 
         {{ if eq .position "right" }}
-            <div class="row">
+            <div class="row right">
                 <div class="col">
                     <div>{{ .content | markdownify }}</div>
                 </div>
@@ -24,4 +24,4 @@
         
         {{ end }}
     {{ end }}
-</div>
+</div>  

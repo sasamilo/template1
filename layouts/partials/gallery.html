@@ -1,6 +1,8 @@
-<div class="gallery">
+ <div class="showcase">
     <h2>Gallery</h2>
-    {{ range .Params.gallery.images }}
-        <img class="img-rounded" src="{{ . }}">
-    {{ end }}   
+    <div class="gallery">  
+        {{ range .Params.gallery.images }}
+            <img class="img-rounded" src="{{ . }}">
+        {{ end }}   
+    </div>
 </div>
