@@ -1,11 +1,13 @@
-<div class="row about">
-    <div class="col herotext">
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Params.about }}</p>
-        <button type="button" class="btn btn-primary">Learn more</button>
-    </div>
+<div class="hero-page">
+    <div class="row about">
+        <div class="col herotext">
+            <h1>{{ .Title }}</h1>
+            <p>{{ .Params.about }}</p>
+            <button type="button" class="btn btn-primary">Learn more</button>
+        </div>
 
-    <div class="col">
-        <img class="hero" src="{{ .Params.hero }}">
+        <div class="col">
+            <img class="hero" src="{{ .Params.hero }}">
+        </div>
     </div>
 </div>

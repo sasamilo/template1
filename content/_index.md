@@ -32,6 +32,7 @@ gallery:
     - /portfolio/image1.jpg
     - /portfolio/image2.jpg
     - /portfolio/image3.jpg
+    - /portfolio/image4.jpg
 testimonial:
   - name: Someone Else
     business: eaglerare

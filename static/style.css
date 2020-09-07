@@ -1,10 +1,19 @@
 body {
-    padding-top: 50px;
+    padding-top: 60px;
     font-family: 'Rubik', sans-serif;
 }
 
 .header {
     font-family: 'Rubik', sans-serif;
+}
+
+.logo-first {
+    font-size: 23px;
+}
+
+.logo-second {
+    font-family: 'Meddon', cursive;
+    font-size: 32px;
 }
 
 .navbar {
@@ -109,6 +118,12 @@ h2 {
     font-size: 2.5em;
 }
 
+.hero-page {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
 .hero {
     width: 700px;
 }
@@ -149,13 +164,17 @@ h2 {
     display: flex;
 }
 
+.gallery-title {
+    padding-bottom: 20px;
+}
+
 .blocks {
     padding: 50px 0 50px 0;
 }
 
 .footer {
     font-family: 'Rubik', sans-serif;
-    padding: 50px 300px 50px 400px;
+    padding: 50px 0px 50px 280px;
     background-color: gray;
 }
 
