@@ -3,9 +3,17 @@
                 <a href=#>BRAND</a><br>
                 <a>name</a>
         </div>
-            {{ range .Params.blocks }}
-            <a href="#">{{ .title }}</a>
-            {{ end }}
-            <a href="#">{{ .Params.gallery.title }}</a>
-            <a href="#">Testimonials</a>
+            <ul class="nav-links">
+                {{ range .Params.blocks }}
+                <li><a href="#">{{ .title }}</a></li>
+                {{ end }}
+                <li><a href="#">{{ .Params.gallery.title }}</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+
+        <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+        </div>
 </nav>
