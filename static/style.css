@@ -23,6 +23,10 @@ body {
     align-items: center;
 }
 
+.navbar-brand {
+    cursor: pointer;
+}
+
 .logo-second {
     margin-top: -50px;
 }
@@ -187,6 +191,28 @@ h2 {
 .footer {
     font-family: 'Rubik', sans-serif;
     padding: 50px 0px 50px 280px;
-    background-color: gray;
+    background-color: rgb(210 210 210);
 }
 
+.sponsors {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10rem;
+  }
+
+.sponsors li {
+    list-style: none;
+}
+
+.sponsor-logos img {
+    display: inline;
+    margin-right: 15vh;
+    max-width: 100%;
+    height: 70px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: rgb(210 210 210);
+}

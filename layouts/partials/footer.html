@@ -13,5 +13,14 @@
         <a href="mailto:#"></a>{{ .email }}</a>
     </address>
         {{ end }}
+    <ul class="sponsors">
+        <li class="sponsor-logos">
+            <a href="#">
+        {{ range .Params.logos }}
+            <img class="sponsor-logos" src="{{ . }}">
+        {{ end }}
+            </a>
+        </li>
+    </ul>  
+    <p class="copyright">Copyright© 2020 Saša Milo Kampič</p>  
 </div>
-

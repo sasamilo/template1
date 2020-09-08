@@ -56,4 +56,8 @@ address:
   city: Dranj 2345
   phone: 123 456 789
   email: jdoe@krulovka.pi
+logos:
+  - /logos/BSC_logo.png
+  - /logos/eu_sklad_logo.png
+  - /logos/logo_mgrt.png
 ---
