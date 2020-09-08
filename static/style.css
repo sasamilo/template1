@@ -23,6 +23,10 @@ body {
     align-items: center;
 }
 
+.logo-second {
+    margin-top: -50px;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -149,11 +153,11 @@ h2 {
 }
 
 .testimonials h2 {
-    padding: 30px 0 20px 0;
+    padding: 50px 0 20px 0;
 }
 
 .testimonials {
-    padding: 20px 0 50px 0;
+    padding: 20px 0 10px 0;
 }
 
 .showcase {
@@ -170,6 +174,14 @@ h2 {
 
 .blocks {
     padding: 50px 0 50px 0;
+}
+
+.contact-form {
+    height: 50vh;
+}
+
+.contact-title {
+    padding: 50px 0 20px 0;
 }
 
 .footer {
