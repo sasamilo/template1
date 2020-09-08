@@ -5,6 +5,12 @@ draft: true
 hero: /image/hero.jpg
 about: here's some text that will explain what this page is about
 
+socialLinks:
+  - icon: "github"
+    URL: "https://github.com/sasamilo"
+  - icon: "github"
+    URL: "https://github.com/sasamilo"
+
 blocks:
   - position: right
     title: Home
