@@ -1,14 +1,14 @@
 <nav class="navbar fixed-top navbar-light">
         <a class="navbar-brand">
-                <div class="logo-first">NA</div><br>
-                <div class="logo-second">net</div>
+                <div class="logo">ownet</div>
         </a>
             <ul class="nav-links">
                 {{ range .Params.blocks }}
-                <li><a href="#">{{ .title }}</a></li>
+                <li><a data-page="home" href="#">{{ .title }}</a></li>
                 {{ end }}
-                <li><a href="#">{{ .Params.gallery.title }}</a></li>
-                <li><a href="#">Testimonials</a></li>
+                <li><a data-page="gallery" href="#">{{ .Params.gallery.title }}</a></li>
+                <li><a data-page="testimonials" href="#">Testimonials</a></li>
+                <div class="bubble"></div>
             </ul>
 
         <div class="burger">

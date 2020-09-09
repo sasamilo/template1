@@ -1,13 +1,21 @@
-<div class="hero-page">
-    <div class="row about">
-        <div class="col herotext">
-            <h1>{{ .Title }}</h1>
-            <p>{{ .Params.about }}</p>
-            <button type="button" class="btn btn-primary">Learn more</button>
-        </div>
+<section data-index="0" class="about">
+    <div class="hero-page">
+        <div class="row about">
+            <div class="col herotext">
+                <h1>{{ .Title }}</h1>
+                <p>{{ .Params.about }}</p>
+                <button type="button" class="btn btn-primary">Learn more</button>
+            </div>
 
-        <div class="col">
-            <img class="hero" src="{{ .Params.hero }}">
+            <div class="col">
+                <img class="hero" src="{{ .Params.hero }}">
+            </div>
         </div>
     </div>
-</div>
+    <ul class="social">
+        <li class="social-links"><i class="fab fa-github"></i></li>
+        <li class="social-links"><i class="fab fa-linkedin"></i></li>
+        <li class="social-links"><i class="fab fa-instagram"></i></li>
+    </ul> 
+</section> 
+

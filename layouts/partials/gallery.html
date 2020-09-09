@@ -1,8 +1,10 @@
- <div class="showcase">
-    <h2 class="gallery-title">Gallery</h2>
-    <div class="gallery">  
-        {{ range .Params.gallery.images }}
-            <img class="img-rounded" src="{{ . }}">
-        {{ end }}   
+<section data-index="1" class="gallery">
+    <div class="showcase">
+        <h2 class="gallery-title">Gallery</h2>
+        <div class="gallery">  
+            {{ range .Params.gallery.images }}
+                <img class="img-rounded" src="{{ . }}">
+            {{ end }}   
+        </div>
     </div>
-</div>
+</section>
