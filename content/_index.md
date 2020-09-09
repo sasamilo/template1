@@ -6,31 +6,32 @@ hero: /image/hero.jpg
 about: here's some text that will explain what this page is about
 
 socialLinks:
-  - icon: "fab fa-github"
+  - icon: "fab fa-github fa-2x"
     URL: "https://github.com/sasamilo"
-  - icon: "fab fa-linkedin"
+  - icon: "fab fa-linkedin fa-2x"
     URL: "https://github.com/sasamilo"
-  - icon: "fab fa-instagram"
-    URL: "instagram.com"
-
+  - icon: "fab fa-instagram fa-2x"
+    URL: "blablabla.com"
+  
 blocks:
   - position: right
-    title: Home
+    title: About
     image: /image/spotlight.jpg
     content: >-
-      ## Spotlight
+      ## About
 
-      This is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content alignment, and image position, as well as assign it an optional onload or onscroll transition modifier (details).
+      I'm passionate about empowering people and highlighting their stories. From that, ownet was born. I offer a full-approach to develop your story and place you on the internet. 
+      
 
 
       [learn more](/learnmore)
   - position: left
-    title: About
+    title: Work
     image: /image/spotlight.jpg
     content: >-
-      ## Spotlight
+      ## Experience
 
-      This is a Spotlight element, and it's generally used – as its name implies – to spotlight a particular feature, subject, or pretty much whatever. You can customize its style, scheme, color, orientation, content alignment, and image position, as well as assign it an optional onload or onscroll transition modifier (details).
+      I bring with me 5+ years of experience in nonprofit sector, advising individuals, 
 
       [learn more](/learnmore)
 

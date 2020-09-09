@@ -5,6 +5,11 @@
                 <h1>{{ .Title }}</h1>
                 <p>{{ .Params.about }}</p>
                 <button type="button" class="btn btn-primary">Learn more</button>
+               <div class="social-links"> 
+                   {{ range .Params.socialLinks }}
+                        <a href="{{ .URL }}"><i class="{{ .icon }}"></i></a>
+                    {{ end }}
+                </div>
             </div>
 
             <div class="col">
@@ -12,6 +17,5 @@
             </div>
         </div>
     </div>
-    <div>{{ .Params.socialLinks }}</div>
 </section> 
 
