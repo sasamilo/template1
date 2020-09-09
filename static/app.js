@@ -20,7 +20,7 @@ const navSlide = () => {
 
 navSlide();
 
-const sections = document.querySelectorAll('section');
+/*const sections = document.querySelectorAll('section');
 const bubble = document.querySelector('bubble');
 const gradients = [
     "linear-gradient(to right top, #fafafa, #dadada)",
@@ -58,3 +58,11 @@ function navCheck(entries) {
 sections.forEach(section => {
     observer.observe(section);
 });
+
+ const scroll = new SmoothScroll('a[href*="#"]');
+$('a.nav-link').on('click', () => {
+    const navbar = $('.navbar-collapse');
+    if (navbar && navbar.hasClass('show')) {
+      $('.navbar-toggler').click();
+    }
+  }) /*

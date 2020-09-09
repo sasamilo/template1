@@ -205,10 +205,14 @@ h2 {
     padding-top: 10px;
 }
 
-.footer {
+.footer{
     font-family: 'Rubik', sans-serif;
-    padding: 50px 0px 50px 280px;
     background-color: rgb(210 210 210);
+    padding-left: 200px;
+}
+
+.address {
+  padding: 50px 0px 50px 400px;
 }
 
 .sponsors {

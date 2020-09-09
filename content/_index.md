@@ -6,10 +6,12 @@ hero: /image/hero.jpg
 about: here's some text that will explain what this page is about
 
 socialLinks:
-  - icon: "github"
+  - icon: "fab fa-github"
     URL: "https://github.com/sasamilo"
-  - icon: "github"
+  - icon: "fab fa-linkedin"
     URL: "https://github.com/sasamilo"
+  - icon: "fab fa-instagram"
+    URL: "instagram.com"
 
 blocks:
   - position: right
