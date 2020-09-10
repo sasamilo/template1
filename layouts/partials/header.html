@@ -3,12 +3,10 @@
                 <div class="logo">ownet</div>
         </a>
             <ul class="nav-links">
-                {{ range .Params.blocks }}
-                <li><a data-page="about" href="#about">{{ .title }}</a></li>
-                {{ end }}
-                <li><a data-page="gallery" href="#gallery">{{ .Params.gallery.title }}</a></li>
-                <li><a data-page="testimonials" href="#testimonials">Testimonials</a></li>
-                <div class="bubble"></div>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">{{ .Params.gallery.title }}</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
         <div class="burger">

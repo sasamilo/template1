@@ -206,6 +206,10 @@ h2 {
     padding: 20px 0 50 0;
 }
 
+#gallery {
+    padding-top: 100px;
+}
+
 .gallery {
     display: flex;
 }
@@ -214,13 +218,16 @@ h2 {
     padding-bottom: 20px;
 }
 
-.gallery-scroll {
-    margin-top: 74px;
-    padding-top: 74px;
-}
-
 .blocks {
     padding: 50px 0 50px 0;
+}
+
+#about {
+    padding-top: 100px;
+}
+
+#contact {
+    padding-top: 100px;
 }
 
 .contact-form {
