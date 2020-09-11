@@ -1,24 +1,23 @@
-<div id="contact" class="row">
-  <div class="col">
-    <form class="contact-form">
-        <h2 class="contact-title">Contact</h2>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="email">
-          </div>
-        </div>
-        <div class="msg-text">
-            <textarea id="textarea" rows="3" style="margin-top" class="form-control" placeholder="send text"></textarea>
-        </div>
-        <div class="submit-button">
-            <button class="btn" type="submit">Submit</button>
-        </div>
-        </div> 
-        <div class="col">
-   
+<form class="contact-form">
+  <div id="contact" class="row form">
+    <div class="col">
+          <h2 class="contact-title">Contact</h2>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="email">
+              </div>
+            </div>
+            <div class="msg-text">
+                <textarea id="textarea" rows="3" style="margin-top" class="form-control" placeholder="send text"></textarea>
+            </div>
+            <div class="submit-button">
+                <button class="btn" type="submit">Submit</button>
+            </div>
+          </div> 
+</form>
       <div class="col">
         <address class="address">
           {{ with .Params.address }}
@@ -29,10 +28,9 @@
               <abbr title="Phone">P:</abbr>{{ .phone }}<br>
   
           <strong>{{ .name }}</strong><br>
-          <a href="mailto:#"></a>{{ .email }}</a>
+          <a href="mailto:sasakampic@gmail.com">{{ .email }}</a>
         </address>
           {{ end }}
       </div>
-    </form>
   </div>
 </div>
